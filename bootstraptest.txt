@@ -1,0 +1,33 @@
+Bootstrap 4
+ 5 lines of code
+ 1. meta name= viewport
+ 2. link bootstrap.mim.css
+ 3. jquery
+ 4. poper.min.js
+ 5. bootstrap.min.js
+ 
+ 
+ grid class
+ .col == extra small device(0px - 576px)
+ .col-sm- = small device (577px -767px)
+ .col-md- = medium device(768px 991px)
+ .col-lg- = large device (992px - 1199px)
+ .col-xl- = extra device (1200px-)
+ 
+ responsive
+ 
+ assignment
+ sm- 4-4-4
+ md-6-6
+ lg-2-10
+ xl-1-1
+ 
+ git defination
+ git clone (link)= to download any project form github
+ git log = to know the last commit you did to github
+ 
+ d-none= class is used to hide any col in any resolution of the screen
+ d-none d-sm-block =  this clas is used to hide any col on perticular resolution like green colum hide on small device .
+ 
+ 
+ //////check laptop page add to wislist animation////

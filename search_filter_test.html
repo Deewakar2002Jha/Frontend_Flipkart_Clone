@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/bootstrap-slider.min.js"
+    />
+    <!-- link search font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- modal support system -->
+    <!-- have to look after -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- if you remove modal links it doesnot work -->
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>
+      Online Shopping Site for Mobiles, Electronics, Furniture, Grocery,
+      Lifestyle, Books &amp; More. Best Offers!
+    </title>
+    <!-- Adding the link of home page CSSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Adding the link of home page CSSS -->
+    <style>
+      aside .chk {
+        width: 15px;
+        height: 10px;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 0px 0px 2px 2px;
+        transform: rotateZ(-45deg);
+        left: 2px;
+        top: 2px;
+      }
+      aside .chkbox {
+        width: 20px;
+        height: 20px;
+        display: none;
+      }
+      aside input[type="checkbox"] {
+        z-index: 100;
+        opacity: 0;
+      }
+      aside input[type="checkbox"]:checked ~ div.chkbox {
+        display: block;
+      }
+       aside .cbox {
+        width: 20px; 
+        height: 20px;
+        /* background: red; */
+      }
+    </style>
+  </head>
+
+  <body class="search_filter_page">
+    <ul>
+      <li>
+        <label>
+          <div class="cbox border bg-white position-absolute"></div>
+          <input type="checkbox" class="position-absolute" /><span class="position-absolute ml-4">Addidas</span>
+          <div class="chkbox bg-primary position-absolute">
+            <div class="chk position-absolute"></div>
+          </div>
+        </label>
+      </li>
+      <li>
+        <label>
+          <div class="cbox border bg-white position-absolute"></div>
+          <input type="checkbox" class="position-absolute" /><span class="position-absolute ml-4">Nike</span>
+          <div class="chkbox bg-primary position-absolute">
+            <div class="chk position-absolute"></div>
+          </div>
+        </label>
+      </li>
+    </ul>
+  </body>
+</html>
